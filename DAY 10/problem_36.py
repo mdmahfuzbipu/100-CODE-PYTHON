@@ -4,3 +4,12 @@ Define a function which can generate a list where the values are square of numbe
 
 Hints: Use ** operator to get power of a number.Use range() for loops.Use list.append() to add values into a list.Use [n1:n2] to slice a list
 """
+
+def squareFunction():
+    numList=[i**2 for i in range(1,21)]
+
+    for i in range(5,len(numList)):
+        print(numList[i])
+
+squareFunction()
+
