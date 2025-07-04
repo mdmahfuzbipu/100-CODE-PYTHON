@@ -8,9 +8,6 @@ To override a method in super class, we can define a method with the same name i
 
 
 class Shape:
-    def __init__(self):
-        pass    
-    
     def area(self):
         return 0
 
